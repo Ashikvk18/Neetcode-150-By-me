@@ -1,0 +1,54 @@
+# C++ build artifacts
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# Compiled binaries
+build/
+dist/
+bin/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.idea/
+*.vcxproj*
+*.sln
+*.user
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+test_results/
+coverage/
+
+# Documentation build
+docs/_build/
+
+# Cache
+.cache/
+__pycache__/
