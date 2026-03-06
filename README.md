@@ -10,12 +10,12 @@ Welcome to my comprehensive journey through the NeetCode 150 problems! This repo
 
 ## 📊 Progress Tracking
 
-### Overall Progress: 0/150 (0%)
+### Overall Progress: 1/150 (0.7%)
 
 ### Category Breakdown
 | Category | Problems | Completed | Progress |
 |----------|----------|-----------|----------|
-| Arrays & Hashing | 21 | 0/21 | ⬜⬜⬜⬜⬜ |
+| Arrays & Hashing | 21 | 1/21 | 🟩⬜⬜⬜⬜ |
 | Two Pointers | 11 | 0/11 | ⬜⬜⬜⬜⬜ |
 | Sliding Window | 9 | 0/9 | ⬜⬜⬜⬜⬜ |
 | Stack | 9 | 0/9 | ⬜⬜⬜⬜⬜ |
