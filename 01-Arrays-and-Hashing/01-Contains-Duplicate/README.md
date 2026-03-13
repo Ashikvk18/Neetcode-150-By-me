@@ -143,6 +143,56 @@ bool containsDuplicate(vector<int>& nums) {
 - Always consider edge cases (empty array, single element)
 - Explain my thinking before coding
 
+### **C++ Syntax Reference (What I Learned):**
+```cpp
+// 1. Include necessary headers
+#include <iostream>        // For input/output
+#include <unordered_set>  // For hash set
+#include <vector>         // For vectors
+
+// 2. Create a hash set
+unordered_set<int> seen;  // Empty set for integers
+
+// 3. Check if element exists in set
+if (seen.count(element)) {  // Returns 1 if exists, 0 if not
+    // Element exists!
+}
+
+// 4. Add element to set
+seen.insert(element);  // Add element to set
+
+// 5. Loop through vector
+for(int i = 0; i < nums.size(); i++) {  // Traditional for loop
+    // Access element with nums[i]
+}
+
+// 6. Alternative: Range-based for loop
+for(int num : nums) {  // Modern C++ style
+    // num is each element
+}
+```
+
+### **Common Syntax Mistakes I Made:**
+```cpp
+// ❌ Wrong: Missing angle brackets
+#include iostream
+
+// ✅ Correct: With angle brackets
+#include <iostream>
+
+// ❌ Wrong: Using undefined variable
+for(int i=0; i<n; i++)
+
+// ✅ Correct: Using vector size
+for(int i=0; i<nums.size(); i++)
+
+// ❌ Wrong: Incomplete statement
+if (seen.)
+
+// ✅ Correct: Complete condition
+if (seen.count(nums[i]))
+```
+
 ### **What I'm Proud Of:**
 - I didn't give up when I got stuck on syntax
 - I asked questions to understand concepts
