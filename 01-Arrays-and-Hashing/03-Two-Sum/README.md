@@ -1,6 +1,6 @@
 # Two Sum - My Most Important Google Pattern
 
-**🔗 [NeetCode Problem](https://neetcode.io/problems/two-sum) | [LeetCode 1](https://leetcode.com/problems/two-sum/) | Difficulty: Easy**
+**🔗 [NeetCode Problem](https://neetcode.io/problems/two-integer-sum) | [LeetCode 1](https://leetcode.com/problems/two-sum/) | Difficulty: Easy**
 
 ---
 
