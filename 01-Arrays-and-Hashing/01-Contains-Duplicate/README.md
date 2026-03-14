@@ -1,5 +1,9 @@
 # Contains Duplicate - My First Problem
 
+**🔗 [NeetCode Problem](https://neetcode.io/problems/duplicate-integer) | [LeetCode 217](https://leetcode.com/problems/contains-duplicate/) | Difficulty: Easy**
+
+---
+
 ## 🎯 What I'm Learning for Google
 **Skills I need to master:**
 - Understanding problems clearly

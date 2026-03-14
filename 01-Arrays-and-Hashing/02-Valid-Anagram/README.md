@@ -1,5 +1,9 @@
 # Valid Anagram - My Struggle & Victory
 
+**🔗 [NeetCode Problem](https://neetcode.io/problems/is-anagram) | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) | Difficulty: Easy**
+
+---
+
 ## 🎯 What I'm Learning for Google
 **Skills I need to master:**
 - Recognizing frequency counting patterns
