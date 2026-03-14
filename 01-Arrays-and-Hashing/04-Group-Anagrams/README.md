@@ -1,6 +1,6 @@
 # Group Anagrams - My Grouping Pattern Mastery
 
-**🔗 [NeetCode Problem](https://neetcode.io/problems/group-anagrams) | [LeetCode 49](https://leetcode.com/problems/group-anagrams/) | Difficulty: Medium**
+**🔗 [NeetCode Problem](https://neetcode.io/problems/anagram-groups) | [LeetCode 49](https://leetcode.com/problems/group-anagrams/) | Difficulty: Medium**
 
 ---
 
