@@ -179,7 +179,7 @@ for (auto& pair : map) {
 
 ### **Syntax I Mastered:**
 ```cpp
-// Reference parameter
+// Reference parameter (function parameter)
 vector<vector<string>> func(vector<string>& strs)
 
 // String sorting
@@ -189,11 +189,34 @@ sort(s.begin(), s.end());
 // Hash map grouping
 map[key].push_back(value);
 
-// Vector extraction
+// Vector extraction with reference (for loop)
 for (auto& pair : map) {
     result.push_back(pair.second);
 }
 ```
+
+### **The & Symbol - Two Uses:**
+
+#### **Use 1: Function Parameters (Efficiency)**
+```cpp
+vector<vector<string>> func(vector<string>& strs)  // No copy!
+```
+- **Purpose:** Avoid copying large vectors
+- **Benefit:** O(1) space instead of O(n) space
+- **When:** Large parameters you don't modify
+
+#### **Use 2: For Loop Iteration (Efficiency)**
+```cpp
+for (auto& pair : map)  // No copy of each pair!
+```
+- **Purpose:** Avoid copying each hash map pair
+- **Benefit:** Faster iteration, less memory
+- **When:** Iterating through containers
+
+#### **Why Google Cares:**
+- **Performance:** Both uses show efficiency thinking
+- **Memory:** Avoids unnecessary copying
+- **Professional:** Shows you understand C++ well
 
 ### **What I'm Proud Of:**
 - I built on my Valid Anagram knowledge
