@@ -91,6 +91,31 @@ for(char c : s) {  // for each loop!
 - **Array** = optimal space, limited to lowercase
 - **Hash Map** = flexible, uses more space
 
+### **Detailed Tradeoff Analysis (Google-Level):**
+
+#### **When to Choose Array:**
+- ✅ **Constraints:** "lowercase English letters only"
+- ✅ **Space:** O(1) - always 26 integers
+- ✅ **Speed:** Direct array access (no hash function)
+- ✅ **Memory:** Predictable, small memory footprint
+- ❌ **Limitation:** Only works for fixed character sets
+
+#### **When to Choose Hash Map:**
+- ✅ **Flexibility:** Works for ANY characters (uppercase, symbols, Unicode)
+- ✅ **Scalability:** Grows with input size
+- ✅ **Generality:** Universal solution
+- ❌ **Space:** O(n) - grows with unique characters
+- ❌ **Speed:** Hash function overhead
+
+#### **Google Interview Answer:**
+"If the problem specifies lowercase letters only, I'd choose the array approach for O(1) space. If it allows any characters, I'd use the hash map for flexibility. The array is optimal for the given constraints, but the hash map shows I can handle more general cases."
+
+#### **Why Google Cares:**
+- **Constraint analysis** - shows you read carefully
+- **Optimization thinking** - choose best tool for job
+- **Flexibility** - know multiple approaches
+- **Communication** - can explain your reasoning
+
 ---
 
 ## 🎓 What I Learned About Google Interviews
