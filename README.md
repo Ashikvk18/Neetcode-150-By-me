@@ -11,12 +11,12 @@ Welcome to my comprehensive journey through the NeetCode 150 problems! This repo
 
 ## 📊 My Progress Journey
 
-### Overall Progress: 5/150 (3.3%)
+### Overall Progress: 6/150 (4.0%)
 
 ### Category Breakdown
 | Category | Problems | Completed | Progress |
 |----------|----------|-----------|----------|
-| Arrays & Hashing | 21 | 5/21 | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
+| Arrays & Hashing | 21 | 6/21 | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ |
 | Two Pointers | 11 | 0/11 | ⬜⬜⬜⬜⬜ |
 | Sliding Window | 9 | 0/9 | ⬜⬜⬜⬜⬜ |
 | Stack | 9 | 0/9 | ⬜⬜⬜⬜⬜ |
@@ -82,6 +82,11 @@ Neetcode/
 - **Key Insight:** (num - 1) doesn't exist = sequence start
 - **Complexity:** O(n) time, O(n) space
 
+#### **Problem #6: Valid Sudoku** - Medium
+- **Pattern:** 2D validation with single pass optimization
+- **Key Insight:** Check row, column, and box constraints simultaneously
+- **Complexity:** O(81) = O(1) time, O(27) = O(1) space
+
 ---
 
 ## 🧠 Key Google Patterns I've Mastered
@@ -101,10 +106,17 @@ Neetcode/
 - **Signature generation** - sorting for grouping
 - **Sequence detection** - start detection logic
 
-### **4. Optimization Thinking**
+### **4. 2D Validation Patterns**
+- **Grid traversal** - systematic 2D array processing
+- **Multiple constraints** - simultaneous row/column/box checking
+- **Mathematical mapping** - 2D coordinates to 1D indices
+- **Single pass optimization** - efficiency in 2D problems
+
+### **5. Optimization Thinking**
 - **O(n²) → O(n)** - complement pattern
 - **O(n log n) → O(n)** - hash set over sorting
 - **Space-time tradeoffs** - when to use extra space
+- **Single pass vs multiple passes** - efficiency optimization
 
 ---
 
@@ -116,6 +128,8 @@ Neetcode/
 - ✅ **Complexity analysis** - understand O(n) vs O(n log n)
 - ✅ **Algorithm design** - think step by step
 - ✅ **C++ syntax mastery** - references, iterators, containers
+- ✅ **2D array operations** - grid traversal and coordinate mapping
+- ✅ **Mathematical derivation** - formulas from first principles
 
 ### **My Problem-Solving Approach:**
 1. **Understand constraints** - read requirements carefully
@@ -131,6 +145,9 @@ Neetcode/
 - Complement pattern questions
 - Grouping and organization tasks
 - O(n) optimization requirements
+- 2D array validation and grid traversal
+- Mathematical coordinate mapping
+- Single pass optimization problems
 
 ## 🛠️ Methodology
 For each problem, I follow a structured approach:
