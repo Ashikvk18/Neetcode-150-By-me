@@ -1,6 +1,6 @@
 # NeetCode 150 - My Journey to Become a Google SWE
 
-![Google Logo](https://media.giphy.com/media/g9582DNlQCIYM/giphy.gif)
+🎯 **Google SWE Bound!**
 
 This is my personal journey through the NeetCode 150 problems. I'm documenting every step of my learning process as I prepare for Google SWE interviews. Each problem represents a challenge I overcame, with all my mistakes, breakthroughs, and insights written in my own words.
 
@@ -12,7 +12,7 @@ My approach is simple: go slow, understand deeply, and document everything so I 
 
 ## 📊 Where I Am Right Now
 
-![Coding Progress](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+💻 **Coding My Way to Google!**
 
 ### Overall Progress: 6/150 problems completed (4.0%)
 
@@ -71,7 +71,7 @@ My first 2D validation problem! I struggled with the box index formula `(row/3)*
 
 ## 🧠 The Patterns I've Learned
 
-![Success Celebration](https://media.giphy.com/media/3o6ZtAYYe6iRjyfrGk/giphy.gif)
+🎉 **Celebrating My Pattern Mastery!**
 
 ### **Hash Set Patterns**
 I use hash sets whenever I need to check if something exists quickly. They give me O(1) lookup, which is perfect for duplicate detection.
@@ -143,7 +143,7 @@ Every problem I solve has:
 
 **This is my journey - one problem at a time, one breakthrough at a time.** 🚀
 
-![Keep Going](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+🔥 **Keep Going, Never Stop!**
 
 *I'm not just solving problems, I'm learning to think like a Google engineer.*
 
