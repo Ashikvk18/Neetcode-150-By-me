@@ -12,7 +12,7 @@ My approach is simple: go slow, understand deeply, and document everything so I 
 
 ## 📊 Where I Am Right Now
 
-![Progress GIF](https://media3.giphy.com/media/3o7abKhOpu0NnHv4I8/giphy.gif)
+![Progress GIF](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 ### Overall Progress: 6/150 problems completed (4.0%)
 
@@ -71,7 +71,7 @@ My first 2D validation problem! I struggled with the box index formula `(row/3)*
 
 ## 🧠 The Patterns I've Learned
 
-![Success GIF](https://media3.giphy.com/media/3o6ZtAYYe6iRjyfrGk/giphy.gif)
+![Success GIF](https://media.giphy.com/media/3o6ZtAYYe6iRjyfrGk/giphy.gif)
 
 ### **Hash Set Patterns**
 I use hash sets whenever I need to check if something exists quickly. They give me O(1) lookup, which is perfect for duplicate detection.
@@ -143,7 +143,7 @@ Every problem I solve has:
 
 **This is my journey - one problem at a time, one breakthrough at a time.** 🚀
 
-![Keep Going GIF](https://media3.giphy.com/media/3o7abKhOpu0NnHv4I8/giphy.gif)
+![Keep Going GIF](https://media.giphy.com/media/l4FGncTkNBYI3JpSRq/giphy.gif)
 
 *I'm not just solving problems, I'm learning to think like a Google engineer.*
 
