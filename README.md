@@ -18,10 +18,10 @@ My approach is simple: go slow, understand deeply, and document everything so I 
 
 ## 📊 Where I Am Right Now
 
-### Overall Progress: 7/150 problems completed (4.7%)
+### Overall Progress: 8/150 problems completed (5.3%)
 
-### Arrays & Hashing Progress: 7/21 problems done
-🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+### Arrays & Hashing Progress: 8/21 problems done
+🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 ### Other Categories: Haven't started yet - taking it one step at a time
 
@@ -49,7 +49,7 @@ Neetcode/
 
 ## 🎯 My Completed Problems & Patterns Mastered
 
-### ✅ Arrays & Hashing (7/21 Complete)
+### ✅ Arrays & Hashing (8/21 Complete)
 
 ## 🎯 Problems I've Solved So Far
 
@@ -74,6 +74,9 @@ My first 2D validation problem! I struggled with the box index formula `(row/3)*
 ### **Problem #7: Top K Frequent Elements** - Medium
 This taught me the Frequency Counting + Sorting pattern! I learned that how you store data matters - storing `{frequency, number}` instead of `{number, frequency}` made sorting automatic without needing lambda functions. I also mastered vector syntax and pair manipulation.
 
+### **Problem #8: Encode and Decode Strings** - Medium
+This taught me the Serialization/Deserialization pattern! I learned to use length prefixes to create unambiguous string boundaries. I also mastered variable scope (local vs class members), string parsing logic, and the importance of perfect reversibility in encoding systems.
+
 ---
 
 ## 🧠 The Patterns I've Learned
@@ -83,6 +86,9 @@ I use hash sets whenever I need to check if something exists quickly. They give 
 
 ### **Hash Map Patterns** 
 I've learned that hash maps are great for storing relationships - like number → index in Two Sum, or signature → list in Group Anagrams, or number → frequency in Top K Frequent Elements.
+
+### **Serialization/Deserialization Patterns**
+Encode and Decode Strings taught me this fundamental pattern: convert complex data to simple format using length prefixes, ensure perfect reversibility, and handle edge cases like empty strings and special characters.
 
 ### **Frequency Counting + Sorting Patterns**
 Top K Frequent Elements taught me this powerful pattern: count frequencies with hash map, convert to sortable format, then extract top k elements. Smart data structure choices can eliminate the need for complex comparators.
