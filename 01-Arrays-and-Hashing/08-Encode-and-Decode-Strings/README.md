@@ -1,6 +1,6 @@
 # Encode and Decode Strings - My String Manipulation Journey
 
-**🔗 [NeetCode Problem](https://neetcode.io/problems/encode-and-decode-strings) | [LeetCode 271](https://leetcode.com/problems/encode-and-decode-strings/) | Difficulty: Medium**
+**🔗 [NeetCode Problem](https://neetcode.io/problems/string-encode-and-decode) | [LeetCode 271](https://leetcode.com/problems/encode-and-decode-strings/) | Difficulty: Medium**
 
 ---
 
