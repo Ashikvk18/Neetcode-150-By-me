@@ -1,10 +1,12 @@
 # Top K Frequent Elements - My Google SWE Journey
 
+**🔗 [NeetCode Problem](https://neetcode.io/problems/top-k-frequent-elements) | [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) | Difficulty: Medium**
+
+---
+
 ## 🎯 Problem Understanding
 
 **Problem Statement:** Given an integer array `nums` and an integer `k`, return the `k` most frequent elements.
-
-**LeetCode Link:** [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
 **Example:**
 ```
