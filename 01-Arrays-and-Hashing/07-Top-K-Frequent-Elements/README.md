@@ -1,6 +1,6 @@
 # Top K Frequent Elements - My Google SWE Journey
 
-**🔗 [NeetCode Problem](https://neetcode.io/problems/top-k-frequent-elements) | [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) | Difficulty: Medium**
+**🔗 [NeetCode Problem](https://neetcode.io/problems/top-k-elements-in-list) | [LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) | Difficulty: Medium**
 
 ---
 
