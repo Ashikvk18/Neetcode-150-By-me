@@ -1,5 +1,7 @@
 # NeetCode 150 - My Journey to Become a Google SWE
 
+![Google Logo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnA3N3ZjZ3Rqc3RhdDlxa2p5bDZxM2p1b2h0bW9vZ2V6c3B6bzNqayZlcD12MV9pbnRlcm5hbF9naWZfYmlfa2QifQ/3oKIPnAiaMCws8nOsE/giphy.gif)
+
 This is my personal journey through the NeetCode 150 problems. I'm documenting every step of my learning process as I prepare for Google SWE interviews. Each problem represents a challenge I overcame, with all my mistakes, breakthroughs, and insights written in my own words.
 
 ## 🎯 Why I'm Doing This
@@ -9,6 +11,8 @@ I want to become a Google SWE, and I know that means I need to master problem-so
 My approach is simple: go slow, understand deeply, and document everything so I can review and learn from my own journey.
 
 ## 📊 Where I Am Right Now
+
+![Coding Progress](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzFqc3RhdDlxa2p5bDZxM2p1b2h0bW9vZ2V6c3B6bzNqayZlcD12MV9pbnRlcm5hbF9naWZfYmlfa2QifQ/26tn33xTiMjrvLSHq/giphy.gif)
 
 ### Overall Progress: 6/150 problems completed (4.0%)
 
@@ -66,6 +70,8 @@ My first 2D validation problem! I struggled with the box index formula `(row/3)*
 ---
 
 ## 🧠 The Patterns I've Learned
+
+![Success Celebration](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnA3N3ZjZ3Rqc3RhdDlxa2p5bDZxM2p1b2h0bW9vZ2V6c3B6bzNqayZlcD12MV9pbnRlcm5hbF9naWZfYmlfa2QifQ/l4FGncTkNBYI3JpSRq/giphy.gif)
 
 ### **Hash Set Patterns**
 I use hash sets whenever I need to check if something exists quickly. They give me O(1) lookup, which is perfect for duplicate detection.
@@ -136,6 +142,8 @@ Every problem I solve has:
 ---
 
 **This is my journey - one problem at a time, one breakthrough at a time.** 🚀
+
+![Keep Going](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnA3N3ZjZ3Rqc3RhdDlxa2p5bDZxM2p1b2h0bW9vZ2V6c3B6bzNqayZlcD12MV9pbnRlcm5hbF9naWZfYmlfa2QifQ/3o7TKDTnqU2w/giphy.gif)
 
 *I'm not just solving problems, I'm learning to think like a Google engineer.*
 
