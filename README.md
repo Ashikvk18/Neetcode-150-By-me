@@ -18,10 +18,10 @@ My approach is simple: go slow, understand deeply, and document everything so I 
 
 ## 📊 Where I Am Right Now
 
-### Overall Progress: 6/150 problems completed (4.0%)
+### Overall Progress: 7/150 problems completed (4.7%)
 
-### Arrays & Hashing Progress: 6/21 problems done
-🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+### Arrays & Hashing Progress: 7/21 problems done
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 ### Other Categories: Haven't started yet - taking it one step at a time
 
@@ -49,7 +49,7 @@ Neetcode/
 
 ## 🎯 My Completed Problems & Patterns Mastered
 
-### ✅ Arrays & Hashing (5/21 Complete)
+### ✅ Arrays & Hashing (7/21 Complete)
 
 ## 🎯 Problems I've Solved So Far
 
@@ -71,6 +71,9 @@ This taught me O(n) optimization! I realized that if (num-1) doesn't exist, then
 ### **Problem #6: Valid Sudoku** - Medium
 My first 2D validation problem! I struggled with the box index formula `(row/3)*3 + (col/3)` but then I learned to derive it from first principles. This taught me to check row, column, and box constraints all in one pass.
 
+### **Problem #7: Top K Frequent Elements** - Medium
+This taught me the Frequency Counting + Sorting pattern! I learned that how you store data matters - storing `{frequency, number}` instead of `{number, frequency}` made sorting automatic without needing lambda functions. I also mastered vector syntax and pair manipulation.
+
 ---
 
 ## 🧠 The Patterns I've Learned
@@ -79,7 +82,10 @@ My first 2D validation problem! I struggled with the box index formula `(row/3)*
 I use hash sets whenever I need to check if something exists quickly. They give me O(1) lookup, which is perfect for duplicate detection.
 
 ### **Hash Map Patterns** 
-I've learned that hash maps are great for storing relationships - like number → index in Two Sum, or signature → list in Group Anagrams.
+I've learned that hash maps are great for storing relationships - like number → index in Two Sum, or signature → list in Group Anagrams, or number → frequency in Top K Frequent Elements.
+
+### **Frequency Counting + Sorting Patterns**
+Top K Frequent Elements taught me this powerful pattern: count frequencies with hash map, convert to sortable format, then extract top k elements. Smart data structure choices can eliminate the need for complex comparators.
 
 ### **Array/String Patterns**
 Frequency counting is now second nature to me. I can count characters, numbers, or create sorted signatures for grouping.
