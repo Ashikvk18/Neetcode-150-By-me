@@ -4,6 +4,8 @@
 
 **Problem Statement:** Given an integer array `nums` and an integer `k`, return the `k` most frequent elements.
 
+**LeetCode Link:** [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+
 **Example:**
 ```
 Input: nums = [1,1,1,2,2,3], k = 2
@@ -43,6 +45,76 @@ Since I stored `{frequency, number}`, the default sort worked perfectly:
 
 ### Step 4: Extract Top K Elements
 Loop through first k elements and extract just the numbers.
+
+---
+
+## 🔍 Pseudocode Logic Flow
+
+```
+FUNCTION topKFrequent(nums, k):
+    
+    // STEP 1: Count frequencies using hash map
+    CREATE unordered_map<int, int> freq
+    
+    FOR each number in nums:
+        freq[number] = freq[number] + 1
+    
+    // STEP 2: Convert hash map to vector for sorting
+    CREATE vector<pair<int, int>> freqVector
+    
+    FOR each (number, frequency) in freq:
+        freqVector.push_back({frequency, number})
+    
+    // STEP 3: Sort by frequency (highest first)
+    SORT freqVector from begin to end:
+        // Default sort works because we stored {frequency, number}
+        // Pairs compare first element by default
+    
+    // STEP 4: Extract top k elements
+    CREATE vector<int> result
+    
+    FOR i from 0 to k-1:
+        result.push_back(freqVector[i].number)
+    
+    RETURN result
+```
+
+---
+
+## 🎯 Pattern Recognition for Google SWE
+
+### **Primary Pattern: Frequency Counting + Sorting**
+This is a fundamental pattern that appears in many Google interview problems:
+
+#### **When to Use This Pattern:**
+- **"Find top k most frequent/least frequent"**
+- **"Sort by frequency/count"**
+- **"Rank elements by occurrence"**
+
+#### **Key Components:**
+1. **Hash Map** - Count frequencies in O(n)
+2. **Sorting** - Order by frequency in O(n log n)
+3. **Extraction** - Take top k elements in O(k)
+
+#### **Google Interview Variations:**
+- **Top K Frequent Words** (same pattern, different data type)
+- **Sort Characters By Frequency** (same pattern, string manipulation)
+- **Find K Most Frequent Elements in Stream** (adds streaming constraint)
+
+### **Secondary Pattern: Smart Data Structure Design**
+I learned that **how you store data matters**:
+
+#### **Smart Choice:**
+```cpp
+// Store {frequency, number} instead of {number, frequency}
+freqVector.push_back({pair.second, pair.first});
+```
+
+#### **Why This is Google-Level Thinking:**
+- **Eliminates need for custom comparator**
+- **Reduces code complexity**
+- **Leverages language defaults**
+- **Shows optimization awareness**
 
 ---
 
