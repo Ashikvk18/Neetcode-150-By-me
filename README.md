@@ -1,5 +1,13 @@
 # NeetCode 150 - My Journey to Become a Google SWE
 
+```
+    🚀 TO GOOGLE I GO 🚀
+   ╔═════════════════════════╗
+   ║  ONE PROBLEM AT A TIME  ║
+   ╚═════════════════════════╝
+        💻 CODE 💻 LEARN 💻
+```
+
 This is my personal journey through the NeetCode 150 problems. I'm documenting every step of my learning process as I prepare for Google SWE interviews. Each problem represents a challenge I overcame, with all my mistakes, breakthroughs, and insights written in my own words.
 
 ## 🎯 Why I'm Doing This
