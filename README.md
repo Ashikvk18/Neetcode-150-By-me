@@ -146,8 +146,8 @@ Every problem I solve has:
 4. Use the README_TEMPLATE.md as a guide for understanding the format
 
 ## 📚 Learning Resources
-- [NeetCode Website](https://neetcode.io/)
-- [LeetCode](https://leetcode.com/)
+- [NeetCode 150 Questions](https://neetcode.io/practice/practice/neetcode150) - The complete list I'm working through
+- [LeetCode](https://leetcode.com/) - Where I practice the problems
 - [C++ Reference](https://en.cppreference.com/)
 
 ## 📈 Study Plan
