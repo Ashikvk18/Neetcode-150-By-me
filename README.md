@@ -18,10 +18,10 @@ My approach is simple: go slow, understand deeply, and document everything so I 
 
 ## 📊 Where I Am Right Now
 
-### Overall Progress: 8/150 problems completed (5.3%)
+### Overall Progress: 9/150 problems completed (6.0%)
 
-### Arrays & Hashing Progress: 8/21 problems done
-🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+### Arrays & Hashing Progress: 9/21 problems done
+🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 ### Other Categories: Haven't started yet - taking it one step at a time
 
@@ -49,7 +49,7 @@ Neetcode/
 
 ## 🎯 My Completed Problems & Patterns Mastered
 
-### ✅ Arrays & Hashing (8/21 Complete)
+### ✅ Arrays & Hashing (9/21 Complete)
 
 ## 🎯 Problems I've Solved So Far
 
@@ -77,6 +77,9 @@ This taught me the Frequency Counting + Sorting pattern! I learned that how you 
 ### **Problem #8: Encode and Decode Strings** - Medium
 This taught me the Serialization/Deserialization pattern! I learned to use length prefixes to create unambiguous string boundaries. I also mastered variable scope (local vs class members), string parsing logic, and the importance of perfect reversibility in encoding systems.
 
+### **Problem #9: Product of Array Except Self** - Medium
+This taught me the Two-Pass Algorithm pattern! I learned to solve problems using forward and backward passes, calculating prefix and suffix products efficiently. I also mastered space optimization techniques and the importance of directional thinking in algorithm design.
+
 ---
 
 ## 🧠 The Patterns I've Learned
@@ -89,6 +92,9 @@ I've learned that hash maps are great for storing relationships - like number �
 
 ### **Serialization/Deserialization Patterns**
 Encode and Decode Strings taught me this fundamental pattern: convert complex data to simple format using length prefixes, ensure perfect reversibility, and handle edge cases like empty strings and special characters.
+
+### **Two-Pass Algorithm Patterns**
+Product of Array Except Self taught me this powerful pattern: forward pass to accumulate information from one direction, backward pass to incorporate information from the other direction, and use output array efficiently for space optimization.
 
 ### **Frequency Counting + Sorting Patterns**
 Top K Frequent Elements taught me this powerful pattern: count frequencies with hash map, convert to sortable format, then extract top k elements. Smart data structure choices can eliminate the need for complex comparators.
