@@ -1,6 +1,6 @@
 # Product of Array Except Self - My Two-Pass Algorithm Journey
 
-**🔗 [NeetCode Problem](https://neetcode.io/problems/product-of-array-except-self) | [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/) | Difficulty: Medium**
+**🔗 [NeetCode Problem](https://neetcode.io/problems/products-of-array-discluding-self) | [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/) | Difficulty: Medium**
 
 ---
 
