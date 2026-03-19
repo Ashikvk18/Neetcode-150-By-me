@@ -18,10 +18,10 @@ My approach is simple: go slow, understand deeply, and document everything so I 
 
 ## 📊 Where I Am Right Now
 
-### Overall Progress: 9/150 problems completed (6.0%)
+### Overall Progress: 10/150 problems completed (6.7%)
 
-### Arrays & Hashing Progress: 9/21 problems done
-🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+### Arrays & Hashing Progress: 10/21 problems done
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 ### Other Categories: Haven't started yet - taking it one step at a time
 
